@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(202, 236, 225);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.list{
+    background-color: rgb(23, 41, 131);
+    border-radius: 10px;
+    width: 32vw;
+    margin: 5px;
+    padding: 10px;
+    height: 100%;
+}
+.list p{
+    font-weight: bolder;
+    color: rgb(202, 236, 225);
+}
+ 
+.all{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.title{
+    padding: 10px;
+}
+h1{
+    margin: 2px;
+    color: rgb(23, 41, 131)
+}
+
+
+
+
+
+.task{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.task p{
+    color: rgb(23, 41, 131);
+    font-weight: normal;
+    
+}
+
+button{
+    background-color: rgb(23, 41, 131);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+
+.mas{
+    background-color: rgb(132, 142, 191);
+}
+.x{
+    color: rgb(23, 41, 131);
+    align-self: self-end;
+    background-color: rgb(202, 236, 225);
+}
+
